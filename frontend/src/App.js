@@ -4,7 +4,7 @@ import { SubmitButton } from './submit';
 
 function App() {
   return (
-    <div>
+    <div className='relative'>
       <PipelineToolbar />
       <PipelineUI />
       <SubmitButton />
